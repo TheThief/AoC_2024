@@ -2,9 +2,9 @@
 
 #include <iostream>
 #include <optional>
+#include <ranges>
+#include <string>
 #include <vector>
-
-#include <range/v3/all.hpp>
 
 template<typename T>
 struct line
@@ -57,7 +57,7 @@ struct line<std::vector<T>>
 		std::string line_string;
 		std::getline(is, line_string);
 		std::istringstream ss(line_string);
-		l.data = ranges::istream_view<T>(ss) | ranges::to<std::vector>;
+		l.data = std::ranges::istream_view<T>(ss) | std::ranges::to<std::vector>();
 
 		return is;
 	}

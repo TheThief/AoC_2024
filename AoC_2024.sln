@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AoC_2024_Day1", "AoC_2024_D
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AoC_2024_Day1_Test", "AoC_2024_Day1_Test\AoC_2024_Day1_Test.vcxproj", "{DB4245FD-374F-4C68-9560-F3015F2D5F0A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AoC_2024_Day2", "AoC_2024_Day2\AoC_2024_Day2.vcxproj", "{167E2C91-8882-41AA-98E6-B2432AD14CD1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AoC_2024_Day2_Test", "AoC_2024_Day2_Test\AoC_2024_Day2_Test.vcxproj", "{6C507C5D-2101-43AA-9B96-F423F4546F16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +25,14 @@ Global
 		{DB4245FD-374F-4C68-9560-F3015F2D5F0A}.Debug|x64.Build.0 = Debug|x64
 		{DB4245FD-374F-4C68-9560-F3015F2D5F0A}.Release|x64.ActiveCfg = Release|x64
 		{DB4245FD-374F-4C68-9560-F3015F2D5F0A}.Release|x64.Build.0 = Release|x64
+		{167E2C91-8882-41AA-98E6-B2432AD14CD1}.Debug|x64.ActiveCfg = Debug|x64
+		{167E2C91-8882-41AA-98E6-B2432AD14CD1}.Debug|x64.Build.0 = Debug|x64
+		{167E2C91-8882-41AA-98E6-B2432AD14CD1}.Release|x64.ActiveCfg = Release|x64
+		{167E2C91-8882-41AA-98E6-B2432AD14CD1}.Release|x64.Build.0 = Release|x64
+		{6C507C5D-2101-43AA-9B96-F423F4546F16}.Debug|x64.ActiveCfg = Debug|x64
+		{6C507C5D-2101-43AA-9B96-F423F4546F16}.Debug|x64.Build.0 = Debug|x64
+		{6C507C5D-2101-43AA-9B96-F423F4546F16}.Release|x64.ActiveCfg = Release|x64
+		{6C507C5D-2101-43AA-9B96-F423F4546F16}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
